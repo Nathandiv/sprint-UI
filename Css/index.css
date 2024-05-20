@@ -1,0 +1,108 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+.pic {
+    width: 30px;
+    height: 30px;
+    border-radius: 5px;
+    margin-bottom: 15px;
+}
+.arrow{
+    height: 28px;
+    width: 28px;
+}
+.arrowdiv{
+    text-align: end;
+    width: 190px;
+    margin-top: 50px;
+}
+.card1 {
+    border: none;
+    height: 260px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.675);
+}
+.card2 {
+    margin-left: 25px;
+    margin-top: 25px;
+    
+}
+.H3 {
+    font-size: 10px;
+    font-family: 'Montserrat';
+    /* color:rgb(17, 17, 207); */
+    color: rgb(71, 71, 218);
+}
+
+.P1 {
+    font-size: 10px;
+    font-family: 'Montserrat';
+}
+
+.maincard {
+    display: grid;
+    grid-template-columns: 240px 240px 240px 240px;
+    gap: 40px;
+    background-color:  rgb(251, 247, 247);
+}
+.maindev{
+    background-color: rgb(251, 247, 247);
+    border-radius: 50px;
+    border-width: 10px;
+    height: 800px;
+    width: 1150px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 5px;
+}
+body{
+    background-color:rgb(251, 247, 247);
+}
+.container2{
+    margin-left: 30px;
+    background-color: rgb(251, 247, 247);
+}
+.header1{
+    background-color: rgb(251, 247, 247);
+    font-size: 12px;
+    /* color:rgb(17, 17, 207); */
+    color: rgb(71, 71, 218);
+    font-family: 'Montserrat';
+    margin-top: 100px;
+}
+
+.card1:hover{
+    cursor: pointer;
+    box-shadow:  0 0 11px rgba(33,33,33,.2);
+}
+
+ .card1:active{
+    background-color: rgba(4, 23, 239, 0.73);
+    color: white
+ }
+     
+.H3:active{
+    color: white;
+}
+.signout{
+    align-items: end;
+    justify-content: end;
+    text-align:center;
+    margin-left: 950px;
+    margin-bottom: -50px;
+}
+.out{
+    border-style: none;
+    border-radius: 15px;
+    background-color:rgb(71, 71, 218); ;
+    color: rgba(255, 255, 255, 0.948);
+    font-family: 'Montserrat';
+    height: 25px;
+    width: 71px;
+    padding-top: 8px;
+    padding-bottom: 20px;
+    text-align: center;
+    align-items: center;
+    font-size: 10px;
+}
+.out:hover{
+    cursor: pointer;
+}
